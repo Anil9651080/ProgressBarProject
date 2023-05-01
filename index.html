@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Keyboard Input</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <h2>Input Value and Max Value Graph</h2>
+            <div class="form-group">
+                <label for="inputValue">Input Value:</label>
+                <input type="text" id="inputValue" class="form-control" placeholder="Enter input value">
+            </div>
+            <div class="form-group">
+                <label for="maxValue">Max Value:</label>
+                <input type="text" id="maxValue" class="form-control" placeholder="Enter max value">
+            </div>
+            <button onclick="plotGraph()">Plot Graph</button>
+            &nbsp;
+            <div class="graph">
+                <div class="bar"></div>
+                &nbsp;
+                <div class="value"></div>
+            </div>
+        </div>
+        <!-- **************** -->
+        <h1 class="text-center">Another Eample</h1>
+        <div class="form-container">
+            <label for="inputValue">Enter a value:</label>
+            <input type="number" id="inputValue" name="inputValue" required>
+            <button type="button" onclick="calculatePercentage()">Submit</button>
+        </div>
+
+        <div class="progress-container">
+            <div class="progress">
+                <div class="progress-bar">
+                    <span class="progress-text">0%</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="graph-container">
+            <div class="graph-bar"></div>
+        </div>
+    </div>
+    <!-- **************** -->
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
